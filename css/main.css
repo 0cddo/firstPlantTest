@@ -47,9 +47,6 @@ body {
   cursor: pointer;
   margin-top: 30px;
 }
-#qna {
-  display: none;
-}
 
 #result {
   display: none;
