@@ -6,42 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>초보자를 위한 식물 테스트</title>
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/qna.css" />
   </head>
   <body>
-    <section id="main">
-      <h1>초보자를 위한 식물 테스트</h1>
-      <h2>식물 킬러에서 식물 집사로 거듭나보자!</h2>
-      <div>
-        <img src="" alt="" />
-      </div>
-      <p>나에게 딱 맞는 식물테스트 시작하기</p>
-      <button type="button" id="btn-start">Start!</button>
-    </section>
-    <section id="qna">
-      <ul class="status">
-        <li class="status-bar"></li>
-      </ul>
-      <ul class="qna-box">
-        <li class="screen-out">
-          <h2>식물 테스트 질문</h2>
-        </li>
-        <li class="qna"></li>
-      </ul>
-      <ul class="answer-box">
-        <li class="answer"></li>
-      </ul>
-    </section>
-    <section id="result">
-      <h2>당신에게 꼭 맞는 식물은?</h2>
-      <ul>
-        <li class="result-title"></li>
-        <li class="result-img"></li>
-        <li class="result-desc"></li>
-      </ul>
-      <button type="button">
-        <img src="" alt="카카오톡 공유하기" />
-      </button>
-    </section>
+    <div class="main-wrapper">
+      <section id="main">
+        <h1>초보자를 위한 식물 테스트</h1>
+        <h2>식물 킬러에서 식물 집사로 거듭나보자!</h2>
+        <div>
+          <img src="" alt="" />
+        </div>
+        <p>나에게 딱 맞는 식물테스트 시작하기</p>
+        <button type="button" id="btn-start">Start</button>
+      </section>
+    </div>
+    <div class="qna-wrapper">
+      <section id="qna">
+        <ul class="status">
+          <li class="status-bar"></li>
+        </ul>
+        <ul class="qna-box">
+          <li class="screen-out">
+            <h2>식물 테스트 질문</h2>
+          </li>
+          <li class="qna"></li>
+        </ul>
+        <ul class="answer-box">
+          <li class="answer"></li>
+        </ul>
+      </section>
+    </div>
+    <div class="result-wrapper">
+      <section id="result">
+        <h2>당신에게 꼭 맞는 식물은?</h2>
+        <ul>
+          <li class="result-title"></li>
+          <li class="result-img"></li>
+          <li class="result-desc"></li>
+        </ul>
+        <button type="button">
+          <img src="" alt="카카오톡 공유하기" />
+        </button>
+      </section>
+    </div>
+    <script src="./js/data.js"></script>
+    <!-- <script src="./js/main.js"></script> -->
+    <script src="./js/main2.js"></script>
   </body>
 </html>
